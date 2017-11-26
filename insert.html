@@ -1,0 +1,40 @@
+<form action="/cgi-bin/insert.py" method="POST" target="_blank">
+<input type="checkbox" name="customer" value="TRUE"> Insert a customer <br />
+c_id: <input type="text" name="c_id"> <br />
+c_name:          <input type="text" name="c_name"> <br />
+c_idtype:          <input type="radio" name="c_idtype" value="individual"> individual
+<input type="radio" name="c_idtype" value="event"> event <br />
+c_age: <input type="text" name="c_age"> <br />
+c_gender:          <input type="radio" name="c_gender" value="male"> male
+<input type="radio" name="c_gender" value="female"> female <br />
+c_pref:          <input type="radio" name="c_pref" value="single"> single
+<input type="radio" name="c_pref" value="double"> double
+<input type="radio" name="c_pref" value="queen"> queen
+<input type="radio" name="c_pref" value="king"> king <br />
+
+<input type="checkbox" name="reserves" value="TRUE"> Insert a reservation <br />
+r_id: <input type="text" name="r_id"> <br />
+c_id: <input type="text" name="c_id"> <br />
+ro_id: <input type="text" name="ro_id"> <br />
+in_date: <input type="text" name="in_date"> <br />
+out_date: <input type="text" name="out_date"> <br />
+r_price: <input type="text" name="r_price"> <br />
+r_rate: <input type="text" name="r_rate"> <br />
+no_dependents: <input type="text" name="no_dependents"> <br />
+pay_method:          <input type="radio" name="pay_method" value="cash"> cash
+<input type="radio" name="pay_method" value="credit"> credit <br />
+
+<input type="checkbox" name="room" value="TRUE"> Insert a room <br />
+ro_id: <input type="text" name="ro_id"> <br />
+all_discount:          <input type="radio" name="all_discount" value="yes"> yes
+<input type="radio" name="all_discount" value="no"> no <br />
+ro_floor: <input type="text" name="ro_floor"> <br />
+ro_num: <input type="text" name="ro_num"> <br />
+bed_no: <input type="text" name="bed_no"> <br />
+bed_size:          <input type="radio" name="bed_size" value="single"> single
+<input type="radio" name="bed_size" value="double"> double
+<input type="radio" name="bed_size" value="queen"> queen
+<input type="radio" name="bed_size" value="king"> king <br />
+max_serve: <input type="text" name="max_serve"> <br />
+<input type="submit" value="Submit" />
+</form>
